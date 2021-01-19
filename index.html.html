@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>AMQ QUIZ EXAMPLE</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https//fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+</head>
+<body>
+<h1>AMW Coding Quiz Demo</h1>
+<form id = "quiz" name = "quiz">
+
+<p>What does HTML stand for?</p>
+<input id = "textbox" type ="text" name = "question1">
+<p>What is CSS?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Cascading Style Sheets">Cascading Style Sheets<br>
+<input type = "radio" id = "mc" name = "question2" value = "Computer Style Sheets">Computer Style Sheets<br>
+
+<input id ="button" type="button" value="Submit" onclick="check();">
+</form>
+
+<div id= "after_submit">
+<p id="number_correct"></p>
+</div>
+</body>
+</html>
